@@ -1,5 +1,5 @@
-a=input("Enter a string")
-wordcount=1
+a='hELLODAkk'
+wordcount=0
 for i in a:
     if i.isupper():
         wordcount+=1
