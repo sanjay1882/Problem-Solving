@@ -1,11 +1,11 @@
-class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
-        ptr=0
-        for i in range(0,len(nums)):
-            if nums[i] != val:
-                nums[ptr]=nums[i]
-                ptr+=1
-        return ptr
+a=[1,2,5,73,3,7,5]
+b=int(input())
+ptr=0
 
-
-        
+for i in range(0,len(a)):
+    if a[i]==b:
+        continue
+    else:
+        a[ptr]=a[i]
+        ptr+=1
+print(a)
